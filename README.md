@@ -6,6 +6,7 @@ http://localhost:8080/user/listUsers
 
 createUser:
 http://localhost:8080/user/addUser
+request :
 {
         "name": "give name",
         "email": "give any email id",
@@ -15,7 +16,7 @@ http://localhost:8080/user/addUser
 
 update user:
 http://localhost:8080/user/updateUser/{id}
-
+request:
 {
         "name": "give name",
         "email": "give any email id",
